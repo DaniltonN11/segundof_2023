@@ -1,4 +1,18 @@
 :root {
-    --cordofundo: #138d75;
-
+    --cordofundo: #24F296;
+    --corfonte: #13BF91;
 }
+
+
+  {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .rodape {
+
+   width: 100%;
+   height: 100px;
+   background-color: var(--cordofundo);
+  }
