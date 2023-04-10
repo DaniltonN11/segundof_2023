@@ -51,10 +51,11 @@ li ul {
   left: 0;
   width: 100%;
   display: none;
-  background-color: #333;
+  background-color: #13BF91;
 }
 
 li:hover > ul {
   display: block;
+  background-color: #13BF91;
 }
  
