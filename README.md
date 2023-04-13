@@ -1,6 +1,6 @@
 Matheus Ponzio Caetano N 27/
 Danilton vieira Gomes  N 12
 
-# Tema: super lotação em maringá;
+# Tema: fake news;
 
-# Descrição: soluções e dicas de melhores horarios para não pegar o trasporte quando lotado.
+# Descrição: O que é,como se prevenir.
