@@ -1,0 +1,103 @@
+:root {
+    --cordofundo: #AD0E00;
+    --corfonte: #ffffff;
+}
+
+body{
+    background-color: #610800;
+}
+
+
+  .lota{
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .rodape {
+
+   width: 100%;
+   height: 100px;
+   background-color: var(--cordofundo);
+   color:var(--corfonte);
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position:static;
+   top:100px;
+   margin-top:50px;
+   
+  }
+  .resumo{
+      width: 100%;
+      height: 290px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 100px;
+      border: inset;
+      border-color:#AD0E00;
+      background-color: #E65245;
+  }
+
+  .resumov{
+      width: 100%;
+      height: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      top: 100px;
+      border: inset;
+      border-color:#AD0E00;
+      background-color: #E65245;
+  }
+
+h1{
+ border:dashed;
+ border-color:#610800;
+} 
+
+  .FAKE{
+    width: 100%;
+    height: 100px;
+  }
+
+  /* Menu expancivel !!!*/
+  nav {
+  width: 100%;
+  background-color: #66251F;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  color: rgb(255,255,255);
+}
+
+li ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  display: none;
+  background-color: #ad0e00;
+}
+
+li:hover > ul {
+  display: block;
+  background-color: #ad0e00;
+}
+ 
