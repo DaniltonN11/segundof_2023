@@ -1,6 +1,9 @@
 * {
   font-family: monospace;
 }
+a {
+  text-decoration: none;
+}
 
 :root {
   --cordofundo: #AD0E00;
@@ -16,25 +19,24 @@ body {
   padding: 0;
 }
 
+.rodapeTop {
+  background-color: var(--cordofundo);
+  color: var(--corfonte);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
 .rodape {
   background-color: var(--cordofundo);
   color: var(--corfonte);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  height: 100px;
+  height: 40px;
 }
 
-.resumo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: inset;
-  border-color: #ad0e00;
-  background-color: #e65245;
-  height: 290px;
-}
 
 .resumov {
   display: flex;
@@ -53,7 +55,6 @@ h1 {
 
 .FAKE {
   height: 100px;
-  width: 100%;
 }
 
 /* Menu expancivel !!!*/
@@ -77,6 +78,13 @@ li a {
   display: block;
   padding: 10px;
   color: rgb(255, 255, 255);
+  text-decoration:none;
+}
+li a:hover {
+  display: block;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
 }
 
 li ul {
@@ -125,7 +133,14 @@ aside {
 section {
   grid-column: 5 / span 8;
   background-color: #fff;
+  color:#000;
   padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+section:hover {
+  background-color: #000;
+  color:#fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
